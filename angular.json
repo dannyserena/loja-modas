@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "loja-modas"
+    }
+  },
+  "defaultProject": "loja-modas",
+  "cli": {
+    "analytics": "598d6551-5220-4850-960d-95c7c38e7397"
+  }
 }
