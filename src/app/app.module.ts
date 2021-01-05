@@ -24,6 +24,9 @@ import { InputComponent } from './shared/input/input.component';
 import { MessageComponent } from './shared/message/message.component';
 import { RadioComponent } from './shared/radio/radio.component';
 import { RatingComponent } from './shared/rating/rating.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { SnackbarComponent } from './shared/message/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -48,11 +51,13 @@ import { RatingComponent } from './shared/rating/rating.component';
     InputComponent,
     MessageComponent,
     RadioComponent,
-    RatingComponent
+    RatingComponent,
+    SnackbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

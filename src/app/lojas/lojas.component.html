@@ -1,1 +1,48 @@
-<p>lojas works!</p>
+ <!-- INíCIO do CONTEÚDO -->
+ <section class="content-header">
+    <h1>
+      Blue Modas próximas a você
+  
+     <a (click)="toggleSearch()" class="search-link pull-right">
+       <span *ngIf="iptSearch.value">
+        <small>Buscando por: "{{iptSearch.value}}" </small> </span>
+       <i class="fa fa-search"></i></a>
+    </h1>
+    <!--SEARCH BAR-->
+   <div class="row">
+      <div class="col-xs-12 search-bar rounded"  [@toggleSearch]="searchBarState">
+        <form [formGroup]="searchForm">
+          <div class="form-group">
+            <input type="text" #iptSearch formControlName="searchControl" 
+            class="form-control rounded" placeholder="O que você está buscando?">
+          </div>
+  
+        </form>
+  
+      </div>
+   </div> 
+  </section>
+  
+  
+  <section class="content">
+  
+    <div class="row">
+            <div  *ngFor="let loja of lojas" class="col-sm-6 col-xs-12">
+             <!--componente loja dinamico listando por ngfor-->
+  
+                <gt-loja [loja]="loja"></gt-loja>
+              <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+              <div *ngIf="lojas?.length === 0" class="col-xs-12">
+                <p class="lead text-center">
+                  Não foram encontrados itens para sua busca.
+                </p>
+              </div>
+           
+  
+          </div>
+  
+  </section>
+  
+  <!-- FIM  do CONTEÚDO -->

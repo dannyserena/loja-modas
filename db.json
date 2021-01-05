@@ -1,0 +1,518 @@
+{
+  "lojas": [
+    {
+      "id": "loja-01",
+      "name": "Blue Modas Praia",
+      "category": "Moda praia",
+      "deliveryEstimate": "25m",
+      "rating": 4.9,
+      "imagePath": "assets/img/lojas/verao.jpeg",
+      "about": "A Blue Modas conceito Moda Praia tem 5 anos de mercado. Fazemos os melhores modelos de moda praia, casual, sport e festas. Compre e confira.",
+      "hours": "Funciona de segunda à sexta, de 8h às 18h"
+    },
+    {
+      "id": "loja-02",
+      "name": "Blue Modas Casual",
+      "category": "Moda Casual",
+      "deliveryEstimate": "100m",
+      "rating": 3.5,
+      "imagePath": "assets/img/lojas/vestido-rosa.jpeg",
+      "about": "A Blue Modas Casual há 10 anos se especializando no dia a dia do Brasileiro.",
+      "hours": "Funciona todos os dias, de 9h às 21h"
+    },
+    {
+      "id": "loja-03",
+      "name": "Blue Modas Festa",
+      "category": "Moda Festa",
+      "deliveryEstimate": "30-40m",
+      "rating": 4.8,
+      "imagePath": "assets/img/lojas/festa02.jpeg",
+      "about": "A Blue Modas Festa foi eleita a melhor na categoria festas da Bahia.",
+      "hours": "Funciona de segunda à sábado, de 8h às 22h"
+    },
+    {
+      "id": "loja-04",
+      "name": "Blue Modas Mix",
+      "category": "Moda Mix",
+      "deliveryEstimate": "45m",
+      "rating": 4.1,
+      "imagePath": "assets/img/lojas/compras.jpg",
+      "about": "Blue Modas, basea-se em uma franquia que vende todas as categorias",
+      "hours": "Funciona de segunda à sábado, das 10h às 19h"
+    },
+    {
+      "id": "loja-05",
+      "name": "Blue Modas Acessórios",
+      "category": "Acessórios",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.5,
+      "imagePath": "assets/img/lojas/sapato.jpeg",
+      "about": "A Blue Modas Acessórios é uma loja inovadora e traz as maiores tendencias feita a mão para a cidade",
+      "hours": "Funciona todos os dias, de 10h às 19h"
+    },
+    {
+      "id": "loja-06",
+      "name": "Blue Modas Fitness",
+      "category": "Fitness",
+      "deliveryEstimate": "40-135m",
+      "rating": 4.5,
+      "imagePath": "assets/img/lojas/fitness2.jpeg",
+      "about": "A Blue Modas Fitness é uma loja inovadora, nosso sucesso é vestir confortavel",
+      "hours": "Funciona todos os dias, de 8h às 18h"
+    }
+  ],
+  "menu": [
+    {
+      "id": "biquini",
+      "imagePath": "assets/img/lojas/biquini-verde.jpeg",
+      "name": "Biquini verde",
+      "description": "Biquini verde em laycra",
+      "price": 68.7,
+      "lojaId": "loja-01"
+    }, 
+    {
+      "id": "biquini-vermelho",
+      "imagePath": "assets/img/lojas/biquini-vermelho.jpeg",
+      "name": "Biquini Vermelho",
+      "description": "Biquini Vermelho de lacinho lateral",
+      "price": 58.7,
+      "lojaId": "loja-01"
+    },
+    {
+      "id": "biquini-azul",
+      "imagePath": "assets/img/lojas/azul.jpeg",
+      "name": "Biquini Azul",
+      "description": "Biquini MISS azul",
+      "price": 8.7,
+      "lojaId": "loja-01"
+    },
+    {
+      "id": "biquini-costas",
+      "imagePath": "assets/img/lojas/costas.jpeg",
+      "name": "Biquini Três Marias",
+      "description": "Conjunto de Biquinis",
+      "price": 190.95,
+      "lojaId": "loja-01"
+    },
+    
+    {
+      "id": "maio",
+      "imagePath": "assets/img/lojas/maio2.jpeg",
+      "name": "Maio strela",
+      "description": "Maiô strela",
+      "price": 152.5,
+      "lojaId": "loja-01"
+    },
+    {
+      "id": "bermuda",
+      "imagePath": "assets/img/lojas/casal.jpeg.jpeg",
+      "name": "Bermuda",
+      "description": "Bermuda Masculina",
+      "price": 55.9,
+      "lojaId": "loja-02"
+    },
+    {
+      "id": "festa",
+      "imagePath": "assets/img/lojas/festa.jpeg",
+      "name": "Vestido Festa classica",
+      "description": "Verdade sucesso, mais vendido",
+      "price": 106.6,
+      "lojaId": "loja-03"
+    },
+    {
+      "id": "festa",
+      "imagePath": "assets/img/lojas/festa02.jpg",
+      "name": "Vestido Festa Branco",
+      "description": "Vestido de alça justo.",
+      "price": 150.6,
+      "lojaId": "loja-03"
+    },
+    {
+      "id": "festa",
+      "imagePath": "assets/img/lojas/drink.jpg",
+      "name": "Vestido Festa",
+      "description": "Pretinho básico e classico",
+      "price": 150.6,
+      "lojaId": "loja-03"
+    },
+    {
+      "id": "festa",
+      "imagePath": "assets/img/lojas/festa5.jpeg",
+      "name": "Vestido Festa Paetê",
+      "description": "Tubinho com paetê, é um classico",
+      "price": 89.6,
+      "lojaId": "loja-03"
+    },
+    {
+      "id": "festa",
+      "imagePath": "assets/img/lojas/festa4.jpeg",
+      "name": "Vestido Festa",
+      "description": "O verdadeiro classico drapeado.",
+      "price": 100.9,
+      "lojaId": "loja-03"
+    },    
+    {
+      "id": "festa",
+      "imagePath": "assets/img/lojas/festa6.jpeg",
+      "name": "Vestido Fashion",
+      "description": "Vestido branco e preto",
+      "price": 320.3,
+      "lojaId": "loja-03"
+    },    
+    {
+      "id": "fitness",
+      "imagePath": "assets/img/lojas/fitness.jpeg",
+      "name": "Roupa de malhar",
+      "description": "calça e top preto",
+      "price": 70.3,
+      "lojaId": "loja-06"
+    },    
+    {
+      "id": "fitness",
+      "imagePath": "assets/img/lojas/fitness3.jpeg",
+      "name": "Roupa de malhar",
+      "description": "leg estampada e top preto",
+      "price": 70.3,
+      "lojaId": "loja-06"
+    },    
+    {
+      "id": "fitness-yoga",
+      "imagePath": "assets/img/lojas/fitness6.jpeg",
+      "name": "Roupa de malhar yoga",
+      "description": "leg preta e camiseta yoga",
+      "price": 70.3,
+      "lojaId": "loja-06"
+    },    
+    {
+      "id": "fitness-short",
+      "imagePath": "assets/img/lojas/fitness4.jpeg",
+      "name": "Shortinho de malhar",
+      "description": "Short em lycra com top",
+      "price": 70.3,
+      "lojaId": "loja-06"
+    }
+    ,    
+    {
+      "id": "fitness",
+      "imagePath": "assets/img/lojas/fitness8.jpeg",
+      "name": "Conjunto com UV",
+      "description": "leg em lycra com camiseta e casaco",
+      "price": 170.3,
+      "lojaId": "loja-06"
+    }
+    ,    
+    {
+      "id": "fitness",
+      "imagePath": "assets/img/lojas/fitness9.jpeg",
+      "name": "Conjunto yoga",
+      "description": "lconjunto yoga",
+      "price": 170.3,
+      "lojaId": "loja-06"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/macacao.jpeg",
+      "name": "Macacão Urbano",
+      "description": "Macacão Urbano hyper",
+      "price": 120.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/look02.jpeg",
+      "name": "conjunto Morena",
+      "description": "Conj. Morena Urbano ",
+      "price": 190.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/casaco.jpeg",
+      "name": "Casaco Listrado",
+      "description": "Casaco Listrado Urban",
+      "price": 90.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/casaco2.jpeg",
+      "name": "Casaco Verde",
+      "description": "Casaco Verde",
+      "price": 90.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/calça-blusa-branca.jpeg",
+      "name": "Calça blusa",
+      "description": "Calça blusa fashion",
+      "price": 120.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/inverno.jpeg",
+      "name": "Casaco",
+      "description": "Casaco Inverno",
+      "price": 90.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/modelo1.jpeg",
+      "name": "Saia e blusa",
+      "description": "Saia e blusa jovem",
+      "price": 90.3,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/modelo2.jpeg",
+      "name": "Blazer",
+      "description": "Casaco Inverno",
+      "price": 150.7,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "casual",
+      "imagePath": "assets/img/lojas/selfie.jpeg",
+      "name": "tribus",
+      "description": "Tribus",
+      "price": 70.7,
+      "lojaId": "loja-02"
+    },    
+    {
+      "id": "moda-mix",
+      "imagePath": "assets/img/lojas/traje-azul.jpeg",
+      "name": "Conjunto Azul",
+      "description": "Blusa e saia azul",
+      "price": 70.7,
+      "lojaId": "loja-04"
+    },    
+    {
+      "id": "moda-mix",
+      "imagePath": "assets/img/lojas/vestido-floral.jpeg",
+      "name": "Vestido Floral",
+      "description": "Vestido em linho cru",
+      "price": 70.7,
+      "lojaId": "loja-04"
+    },    
+    {
+      "id": "moda-mix",
+      "imagePath": "assets/img/lojas/vestido-classico.jpeg",
+      "name": "Vestido classico",
+      "description": "Vestido classico",
+      "price": 160.7,
+      "lojaId": "loja-04"
+    },    
+    {
+      "id": "moda-mix",
+      "imagePath": "assets/img/lojas/vestido3.jpeg",
+      "name": "Vestido Lolita",
+      "description": "Vestido Lolita",
+      "price": 160.7,
+      "lojaId": "loja-04"
+    },    
+    {
+      "id": "acessorios",
+      "imagePath": "assets/img/lojas/mochila.jpeg",
+      "name": "Mochila em Couro",
+      "description": "Mochila em couro Lolita",
+      "price": 160.7,
+      "lojaId": "loja-05"
+    },    
+    {
+      "id": "acessorios",
+      "imagePath": "assets/img/lojas/sapato.jpeg",
+      "name": "Calçados",
+      "description": "calçados Lolita",
+      "price": 160.7,
+      "lojaId": "loja-05"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2021-01-03T18:25:43",
+      "rating": 4.5,
+      "comments": "Tudo muito bom, entrega no tempo certo",
+      "lojaId": "loja-01"
+    },
+    {
+      "name": "Junny",
+      "date": "2021-01-03T18:25:43",
+      "rating": 4.3,
+      "comments": "Tudo muito bom,ótima qualidade entrega no tempo certo",
+      "lojaId": "loja-02"
+    },
+    {
+      "name": "Aline",
+      "date": "2020-12-12T18:25:43",
+      "rating": 2,
+      "comments": "NÃO recomendo. Não é fiel a descrição",
+      "lojaId": "loja-02"
+    },
+    {
+      "name": "Renata",
+      "date": "2020-12-12T18:25:43",
+      "rating": 2,
+      "comments": "Não foi muito agradável, eu demorei pra receber",
+      "lojaId": "loja-01"
+    },
+    {
+      "name": "Renata",
+      "date": "2020-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Nunca deixou na mão, ótima qualidade sempre atenciosa.",
+      "lojaId": "loja-01"
+    },
+    {
+      "name": "Danielle",
+      "date": "2019-01-23T18:25:43",
+      "rating": 4,
+      "comments": "Adorei a qualidade, recomendo!",
+      "lojaId": "loja-05"
+    },
+    {
+      "name": "Karina",
+      "date": "2021-02-01T18:25:43",
+      "rating": 5,
+      "comments": "Melhor atendimento, entrega e qualidade.",
+      "lojaId": "loja-03"
+    },
+    {
+      "name": "Suzana",
+      "date": "2020-12-12T18:25:43",
+      "rating": 3.5,
+      "comments": "Adorei, muito bem embalado e super rápido =)",
+      "lojaId": "loja-04"
+    },
+    {
+      "name": "Eric",
+      "date": "2021-01-03T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente opção! Recomendo!",
+      "lojaId": "loja-06"
+    },
+    {
+      "name": "Noelle",
+      "date": "2021-01-04T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente opção!Adorei o biquini, deu certinho. Recomendo!",
+      "lojaId": "loja-06"
+    },
+    {
+      "name": "Amanda",
+      "date": "2021-01-02T18:25:43",
+      "rating": 4.5,
+      "comments": "Modelo exclusivo, muito satisfeita",
+      "lojaId": "loja-06"
+    }
+  ],
+  "orders": [
+    {
+      "address": "Rua Capenis Duarte Lote 10 Quadra G, 11",
+      "number": "11",
+      "optionalAddress": "s",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fitness-yoga"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Estado dos Santos lote 11, 3 etapa da praia",
+      "number": "11",
+      "optionalAddress": "sn",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "biquini-azul"
+        },
+        {
+          "quantity": 1,
+          "menuId": "biquini-costas"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua das flores",
+      "number": "13",
+      "optionalAddress": "",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "biquini"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bermuda"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "Av. Clara de Geronimo gomes, n89, Itapuã Salvador-Ba ",
+      "number": "132",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fitness-yoga"
+        },
+        {
+          "quantity": 1,
+          "menuId": "maio"
+        },
+        {
+          "quantity": 1,
+          "menuId": "biquini-vermelhor"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bermuda"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "danielle1",
+      "email": "teste@teste.com.br",
+      "emailConfirmation": "dannyserena@gmail.com",
+      "address": "Rua luis Carlos Duarte Lote 11 Quadra G",
+      "number": "11",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "biquini"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "DANIELLE ",
+      "email": "danielle@gmail.com",
+      "emailConfirmation": "danielle@gmail.com",
+      "address": "Rua luis Carlos Duarte Lote 11 Quadra G",
+      "number": "11",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "biquini-costas"
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
