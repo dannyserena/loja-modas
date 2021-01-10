@@ -203,8 +203,8 @@ body {
     background-color: #024F90;
   }
   .btn-primary {
-    background-color: #f48fb1;
-    border-color: #bf5f82;
+    background-color: #82b1ff;
+    border-color: #009faf;
   }
   .btn-success {
     background-color: #4dd0e1;
@@ -212,8 +212,8 @@ body {
     
   }
   .btn-danger {
-    background-color: #f48fb1;
-    border-color: #bf5f82;
+    background-color: #82b1ff;
+    border-color: #024F90;
   }
   /*Jumbotrons*/
   

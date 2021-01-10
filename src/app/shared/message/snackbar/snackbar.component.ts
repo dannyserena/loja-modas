@@ -5,6 +5,7 @@ import 'rxjs/add/observable/timer';
 import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/switchMap';
 import { Observable } from 'rxjs/internal/Observable';
+import { timer } from 'rxjs/internal/observable/timer';
 
 @Component({
   selector: 'app-snackbar',
@@ -38,7 +39,7 @@ export class SnackbarComponent implements OnInit {
         this.message = message
         this.snackVisibilty = 'visible'
       //condição para manter a notificao por um determinado tempo pelo swithMap para fazer um subscribe
-      }).switchMap(message => Observable.timer(4000))
+      }).switchMap(message => timer(4000))
       .subscribe(timer=> this.snackVisibilty = 'hidden')
   }
 }

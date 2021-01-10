@@ -35,6 +35,7 @@ import { LojasService } from './lojas/lojas.service';
 import { OrderService } from './order/order.service';
 import { LoginService } from './security/login/login.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     SharedModule.forRoot(), //importe de componentes compartilhados + serviços
-    RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules}),
+    RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules}), FontAwesomeModule,
       // NgbModule.forRoot()
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy},
