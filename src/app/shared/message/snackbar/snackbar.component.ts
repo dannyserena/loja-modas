@@ -27,7 +27,6 @@ import { Observable } from 'rxjs/internal/Observable';
   ]
 })
 export class SnackbarComponent implements OnInit {
-
   message: string;
   snackVisibilty: string ='hidden';
 
@@ -42,6 +41,4 @@ export class SnackbarComponent implements OnInit {
       }).switchMap(message => Observable.timer(4000))
       .subscribe(timer=> this.snackVisibilty = 'hidden')
   }
-  
-
 }

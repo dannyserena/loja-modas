@@ -6,15 +6,20 @@ import { trigger, animate, style, transition, state } from '@angular/animations'
 import { Loja } from './loja/loja.model';
 import { LojasService } from './lojas.service';
 import 'rxjs/add/operator/switchMap';
+import { switchMap } from 'rxjs/operators';
 import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/catch';
+import { catchError } from 'rxjs/operators';
 import 'rxjs/add/observable/from';
 import { Observable } from 'rxjs/internal/Observable';
+import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { HttpErrorResponse } from '@angular/common/http';
+import { throwError } from 'rxjs/internal/observable/throwError';
 
 @Component({
-  selector: 'gt-lojas',
+  selector: 'app-lojas',
   templateUrl: './lojas.component.html',
   styleUrls: ['./lojas.component.css'],
   animations:[
@@ -51,12 +56,12 @@ export class LojasComponent implements OnInit {
       searchControl: this.searchControl
     })
     this.searchControl.valueChanges
-    .debounceTime(500)
-    .distinctUntilChanged()//trata diferença entre pesquisas
-    .switchMap(searchTerm => 
+    .pipe(debounceTime(500),distinctUntilChanged())//trata diferença entre pesquisas
+    .pipe(switchMap(searchTerm => 
       this.lojasService
       .lojas(searchTerm)
-      .catch(error=>Observable.from([])))
+      // .catch(error=>Observable.from([]))))
+      .pipe(catchError(this.erroHandler))))
       .subscribe(lojas => this.lojas = lojas)
 
       //retorna observable necessario subscribe
@@ -64,7 +69,9 @@ export class LojasComponent implements OnInit {
       .subscribe(lojas => this.lojas = lojas)
 
   }
-
+  erroHandler(error: HttpErrorResponse) {
+    return throwError(error.message || 'server Error');
+  }
   //trocando o estado da toggleBar
   toggleSearch(){
     this.searchBarState = this.searchBarState === 'hidden' ? 'visible' : 'hidden'

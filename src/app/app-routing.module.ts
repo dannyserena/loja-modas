@@ -10,7 +10,7 @@ import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { LoginComponent } from './security/login/login.component';
 
 
-const routes: Routes = [
+export const ROUTES: Routes =  [
   {path:'', component: HomeComponent},
     {path:'login', component: LoginComponent},
     //referencia do lazyLoad
@@ -30,7 +30,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(ROUTES)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

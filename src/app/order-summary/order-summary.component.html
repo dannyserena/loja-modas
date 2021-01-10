@@ -1,1 +1,19 @@
-<p>order-summary works!</p>
+<!-- INICIO DO CONTEUDO -->
+<section class="content-header">
+</section>
+
+<section class="content">
+  <div class="jumbotron">
+    <h2>Pedido Concluído</h2>
+    <p>Seu pedido foi recebido pela Blue Modas. Aguarde seu pedio está a caminho!</p>
+    <p><b>Avalie</b> sua experiência:</p>
+    <!--Criado evento rated para capturar avaliações do usuário-->
+      <p> <app-rating (rated)="rate()"></app-rating></p>
+      <p *ngIf="rated">
+        Obrigado pela sua avaliação!
+
+      </p>
+  </div>
+
+</section>
+<!-- FIM DO CONTEUDO -->
