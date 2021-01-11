@@ -1,4 +1,6 @@
-import { NgModule } from '@angular/core';
+import { OrderComponent } from './order/order.component';
+import { AboutComponent } from './about/about.component';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LojaDetailsComponent } from './loja-details/loja-details.component';
@@ -14,7 +16,7 @@ export const ROUTES: Routes =  [
   {path:'', component: HomeComponent},
     {path:'login', component: LoginComponent},
     //referencia do lazyLoad
-    {path:'about', loadChildren: './about/about.module#AboutModule'},
+    {path:'about', component: AboutComponent},
     {path:'lojas', component: LojasComponent},
     //acessando apps filhas com children
     {path:'lojas/:id', component: LojaDetailsComponent,
@@ -24,7 +26,7 @@ export const ROUTES: Routes =  [
             {path: 'menu', component: MenuComponent},
             {path: 'reviews', component: ReviewsComponent}
         ]},
-    {path: 'order', loadChildren: './order/order.module#OrderModule'},
+    {path: 'order', component: OrderComponent},
     {path: 'order-summary', component: OrderSummaryComponent},
     {path:'**', component: NotFoundComponent} //Wildcard deve ficar no fim
 ];
