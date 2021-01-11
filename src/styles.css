@@ -5,6 +5,9 @@ body {
   .box-header {
     color: inherit;
   }
+  .navbar-brand{
+      color:#fff;
+  }
   
   /*
    * Component: Place Info Box
@@ -95,7 +98,7 @@ body {
     margin: 0;
   }
   
-  /* Detail For Gelateria */
+  /* Detail For loja */
   
   .box-img-detail {
       width: 180px;
@@ -255,7 +258,7 @@ body {
     font-weight: bold;
   }
   
-  /*gelateria detail*/
+  /*loja detail*/
   
   .detail-footer{
     padding:0px
@@ -276,11 +279,11 @@ body {
   }
   
   .detail-active {
-    border-bottom: 2px solid #ff80ab;
+    border-bottom: 2px solid #024F90;
   }
   
   .has-error-block {
-    color: #ff80ab;
+    color: #024F90;
   }
   
   .navbar-header {
