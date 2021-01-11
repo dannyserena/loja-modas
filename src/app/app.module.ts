@@ -74,7 +74,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy},
     NotificationService,ShoppingCartService,LojasService,OrderService,LoginService,
-    {provide:LOCALE_ID, useValue: 'pt-BR'}],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
