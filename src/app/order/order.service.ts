@@ -6,7 +6,7 @@ import { CartItem } from './../loja-details/shopping-cart/cart-item.model';
 import { ShoppingCartService } from './../loja-details/shopping-cart/shopping-cart.service';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
-import { Order, OrderItem } from './order.model';
+import { Order } from './order.model';
 
 
 @Injectable()

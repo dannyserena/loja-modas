@@ -1,11 +1,11 @@
  <!--INÍCIO DO MENU -->
- <div class="col-md-8 col-xs-12">
+ <div class="col-md-12 col-xs-12">
     <app-menu-item *ngFor="let item of menu | async" 
     [menuItem]="item" (add)="shoppingCart.addItem($event)"></app-menu-item>
       <!-- /.info-box -->
 
     </div>
-    <div class="col-md-3 col-xs-12">
+    <div class="col-md-8 col-xs-12">
         <!--carrinho de compras chamando pela template variable-->
           <app-shopping-cart #shoppingCart></app-shopping-cart>
     </div>

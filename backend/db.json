@@ -114,7 +114,7 @@
     {
       "id": "festa",
       "imagePath": "assets/img/lojas/festa.jpeg",
-      "name": "Vestido Festa classica",
+      "name": "Vestido classica",
       "description": "Verdade sucesso, mais vendido",
       "price": 106.6,
       "lojaId": "loja-03"
@@ -122,14 +122,14 @@
     {
       "id": "festa",
       "imagePath": "assets/img/lojas/festa02.jpeg",
-      "name": "Vestido Festa Branco",
+      "name": "Vestido Branco",
       "description": "Vestido de alça justo.",
       "price": 150.6,
       "lojaId": "loja-03"
     },
     {
       "id": "festa",
-      "imagePath": "assets/img/lojas/drink.jpg",
+      "imagePath": "assets/img/lojas/festa3.jpeg",
       "name": "Vestido Festa",
       "description": "Pretinho básico e classico",
       "price": 150.6,
@@ -138,7 +138,7 @@
     {
       "id": "festa",
       "imagePath": "assets/img/lojas/festa5.jpeg",
-      "name": "Vestido Festa Paetê",
+      "name": "Vestido Paetê",
       "description": "Tubinho com paetê, é um classico",
       "price": 89.6,
       "lojaId": "loja-03"
@@ -146,7 +146,7 @@
     {
       "id": "festa",
       "imagePath": "assets/img/lojas/festa4.jpeg",
-      "name": "Vestido Festa",
+      "name": "Vestido Drapeado",
       "description": "O verdadeiro classico drapeado.",
       "price": 100.9,
       "lojaId": "loja-03"
