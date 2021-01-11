@@ -211,6 +211,15 @@ body {
   .skin-red .main-header .navbar {
     background-color: #024F90;
   }
+  .bg-blue {
+    background-color: #024F90 !important;
+}
+.a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 20px;
+}
   .btn-primary {
     background-color: #82b1ff;
     border-color: #009faf;
