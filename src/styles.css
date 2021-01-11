@@ -214,8 +214,8 @@ body {
   .bg-blue {
     background-color: #024F90 !important;
 }
-.a {
-    color: #fff;
+.navbar-dark .bg-dark {
+    color: #fff !important;
     text-decoration: none;
     background-color: transparent;
     padding: 20px;
