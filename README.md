@@ -28,10 +28,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Preview
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![blue-modas](https://user-images.githubusercontent.com/5931990/104261781-0eb36500-5465-11eb-8bb2-6dbf16541c87.png)
+![blue-modas-proxima](https://user-images.githubusercontent.com/5931990/104261855-2e4a8d80-5465-11eb-9d9c-bb1e91452973.png)
+![bluemodas-praia](https://user-images.githubusercontent.com/5931990/104261862-30ace780-5465-11eb-92f7-1d6ec76072b0.png)
+![bluemodas-add-produto](https://user-images.githubusercontent.com/5931990/104261866-33a7d800-5465-11eb-9d25-a65964a52c25.png)
+![bluemodas-finalizando-pedido](https://user-images.githubusercontent.com/5931990/104262530-8fbf2c00-5466-11eb-93d5-29cd96db1e98.png)
